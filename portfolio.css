@@ -1,0 +1,109 @@
+body {
+  /*Typography Declarations */
+  color: #4964FF;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  background:linear-gradient(to bottom right, #FFFFFF, #7ABEE3);
+}
+  .content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align:center;
+}
+.masthead {
+  Padding: 6em 0;
+  background-image: url('http://i989.photobucket.com/albums/af14/cskouras/IMG_8980_zpsl8r7yhvt.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #00FFFF;
+  border-radius: 20px;
+}
+.masthead-intro { 
+  /*Layout Declarations*/
+  margin-bottom: 0.1 em;
+  /* Typography Declarations*/
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+.masthead-heading {
+   /*Layout Declarations*/
+   margin-top: -0.2em;
+   /* Typography Declarations*/
+   font-family: "Open Sans", "Helvetica Neue", sans-serif;
+   font-weight:bold;
+  font-size:6em;
+  letter-spacing: -0.02 em; 
+  text-transform: uppercase;
+  text-shadow: 1px 1px 5px #000;
+}
+.content-footer,
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38 em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.social > li {
+  display: inline-block;
+  font-weight:bold;
+  font-size:1.2em;
+}
+.introduction-section > p, 
+.location-section > p, 
+.content-footer > p {
+  /*Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+.questions-section > h2 {
+  /*Typography Declarations*/
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2 em;
+  font-weight: bold;
+  /*Layout*/
+  margin: 2em 0 1em 0
+}
+section > h1 {
+  margin-top: 2em;
+}
+.content-footer {
+  /* Red, Green, Blue: #RRGGBB*/
+  background-color: #40A9FF;
+  color:#FFFFFF;
+  font-size:1em
+}
+h1 {
+    color: #5EBAFF;
+    text-align:center;
+    font-size: 3em;
+    font-family: 'Apple Chancery', 'Roboto', sans-serif;
+  }
+
+.projects .ny-times {
+  background-position: center bottom;
+  background-repeat: o-repeat;
+  background-size: cover;
+  overflow: auto;
+  border: 10 solid black; 
+}
+
+.projects h2 {
+  padding-top:2em;
+}
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .nytimes {
+    width: 15rem;
+    height: 6rem;
+  }
+  .masthead-heading {
+    font-size: 2.5em;
+  }
+  .content-footer {
+    font-size: .5em
+  }
